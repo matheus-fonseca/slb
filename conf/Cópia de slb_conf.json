@@ -1,0 +1,106 @@
+{
+    "real_servers": [
+        {
+            "real_server_address": "172.16.0.1",
+            "real_server_ports": [
+                80
+            ]
+        },
+        {
+            "real_server_address": "172.16.0.2",
+            "real_server_ports": [
+                80
+            ]
+        },
+        {
+            "real_server_address": "172.16.0.3",
+            "real_server_ports": [
+                80
+            ]
+        },
+        {
+            "real_server_address": "172.16.0.4",
+            "real_server_ports": [
+                80
+            ]
+        },
+        {
+            "real_server_address": "172.16.0.5",
+            "real_server_ports": [
+                80
+            ]
+        },
+        {
+            "real_server_address": "172.16.0.6",
+            "real_server_ports": [
+                80
+            ]
+        },
+        {
+            "real_server_address": "172.16.0.21",
+            "real_server_ports": [
+                80
+            ]
+        },
+        {
+            "real_server_address": "172.16.0.22",
+            "real_server_ports": [
+                80
+            ]
+        },
+        {
+            "real_server_address": "172.16.0.23",
+            "real_server_ports": [
+                80
+            ]
+        },
+        {
+            "real_server_address": "172.16.0.24",
+            "real_server_ports": [
+                80
+            ]
+        },
+        {
+            "real_server_address": "172.16.0.25",
+            "real_server_ports": [
+                80
+            ]
+        },
+        {
+            "real_server_address": "172.16.0.26",
+            "real_server_ports": [
+                80
+            ]
+        },
+        {
+            "real_server_address": "172.16.0.27",
+            "real_server_ports": [
+                80
+            ]
+        },
+        {
+            "real_server_address": "172.16.0.28",
+            "real_server_ports": [
+                80
+            ]
+        }
+    ],
+    "slb": {
+        "slb_address": "192.168.0.33",
+        "slb_address_device": "eth2",
+        "slb_algorithm": "LOWER_LATENCY",
+		"slb_cluster_gateway": "172.16.0.100",
+        "slb_cluster_gateway_device": "eth1",
+        "slb_cluster_network": "172.16.0.0/24",
+        "slb_pass": "m@t123.SF",
+        "slb_port": 8888,
+        "slb_ssh_port": 22,
+        "slb_user": "matheus"
+    },
+    "slb_backup": {
+        "slb_backup_address": "172.16.0.101",
+        "slb_backup_pass": "m@t123.SF",
+        "slb_backup_ssh_port": 22,
+        "slb_backup_user": "matheus"
+    }
+}

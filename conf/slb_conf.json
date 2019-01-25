@@ -1,0 +1,23 @@
+{
+    "real_servers": [
+        
+    ],
+    "slb": {
+        "slb_address": "172.20.10.3",
+        "slb_address_device": "eth2",
+        "slb_algorithm": "LOWER_LATENCY",
+		"slb_cluster_gateway": "172.16.0.100",
+        "slb_cluster_gateway_device": "eth1",
+        "slb_cluster_network": "172.16.0.0/24",
+        "slb_pass": "vagrant",
+        "slb_port": 8888,
+        "slb_ssh_port": 22,
+        "slb_user": "vagrant"
+    },
+    "slb_backup": {
+        "slb_backup_address": "172.16.0.101",
+        "slb_backup_pass": "vagrant",
+        "slb_backup_ssh_port": 22,
+        "slb_backup_user": "vagrant"
+    }
+}
